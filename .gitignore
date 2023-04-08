@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dependencies
+.venv/
+env/
+pip-lock.json
+pipfile.lock
+
+# Local development settings
+.env
+.local/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.bak
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Compiled files
+*.exe
+*.o
+*.so
+*.dll
+*.out
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
