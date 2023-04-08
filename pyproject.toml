@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "chat-recipe-backend"
+version = "0.1.0"
+description = ""
+authors = ["Harada, Kosuke"]
+readme = "README.md"
+packages = [{include = "chat_recipe_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.95.0"
+boto3 = "^1.26.109"
+
+
+[tool.poetry.group.dev.dependencies]
+uvicorn = "^0.21.1"
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
