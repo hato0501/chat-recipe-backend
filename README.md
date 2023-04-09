@@ -1,5 +1,15 @@
 Here's a detailed breakdown of the functionality provided by the backend repository for ChatGPT Recipe Assistant:
 
+## Quick Guide
+### Settings
+- Set `.env` file in root directory:
+  ```
+  OPENAI_API_KEY=sk-...
+  ```
+
+### Local Run
+`poetry run uvicorn app.main:app --reload`
+
 ## API spec
 ### API Routers:
 - `recipes` - This router allows users to search for recipes with specific ingredients and get recipe suggestions based on menu images

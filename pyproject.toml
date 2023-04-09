@@ -10,6 +10,8 @@ packages = [{include = "chat_recipe_backend"}]
 python = "^3.10"
 fastapi = "^0.95.0"
 boto3 = "^1.26.109"
+httpx = "^0.23.3"
+pydantic = {extras = ["dotenv"], version = "^1.10.7"}
 
 
 [tool.poetry.group.dev.dependencies]
